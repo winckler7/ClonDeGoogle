@@ -12,16 +12,17 @@
 </head>
 
 <body>
+
     <header>
-        <nav class="menu_principal" aria-label="menu_principal ">
-            <div>
-                <a href="www.gmail.com" target="_blank">Gmail</a>
-                <a href="#">Images</a>
-            </div>
-            <button class="menu_btn">
-                <img src="./assets/icon/three-dots.png" alt="menú de opciones">
+        <nav>
+            <a href="https://www.google.com.mx/imghp?hl=en&tab=ri&ogbl">Images</a>
+            <a href="www.gmail.com">Gmail</a>
+            <button class="botonMenu">
+                <img src="./assets/icon/three-dots.png" alt="menu">
             </button>
-            <button class="profile">CH</button>
+            <button class="botonMenu" id="spiderman">
+                <img src="https://i.pinimg.com/236x/7d/90/22/7d9022c1808abb81bbc2b757eefd099f.jpg" alt="fotoPerfil" class="spidey">
+            </button>
         </nav>
     </header>
 
@@ -34,32 +35,32 @@
 
         <form class="busqueda">
             <label for="search" ></label>
-            <input id="search" type="search" name="search">
+            <input id="input-search" type="search" name="search">
             <span></span>
         </form>
         <div class="acciones">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <button class="btn-search" id="search">Google Search</button>
+            <button class="btn-search" id="lucky">I'm Feeling Lucky</button>
         </div>
     </main>
 
     <footer>
-        <div class="pais">
+        <section class="mexico">
             <h5>México</h5>
-        </div>
-        <div class="links">
+        </section>
+        <section class="links">
             <nav aria-label="menu_nosotros">
-            <a href="">About</a>
-            <a href="">Advertising</a>
-            <a href="">Business</a>
-            <a href="">How search works</a>
+            <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+            <a href="https://ads.google.com/intl/en_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+            <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Business</a>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1">How search works</a>
             </nav>
             <nav aria-label=" menu_terminos_condiciones">
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
-                <a href="">Conditions</a>
+                <a href="https://policies.google.com/privacy?hl=en-MX&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en-MX&fg=1">Terms</a>
+                <a href="">Settings</a>
             </nav>
-        </div>
+        </section>
     </footer>
 
 </body>
